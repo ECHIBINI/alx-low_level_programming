@@ -2,7 +2,7 @@
 
 /**
  * prints the alphabet in lowercase, followed by a new line.
- * return(0)
+ * return zero
  */
 
 int main(void)
@@ -15,6 +15,7 @@ int main(void)
 		if (letter != 'e' && letter != 'q')
 		putchar(letter);
 	}
+
 	putchar('\n');
 
 	Return(0)
