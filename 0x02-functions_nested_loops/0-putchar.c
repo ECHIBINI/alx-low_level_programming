@@ -3,10 +3,11 @@
  * program that prints _putchar, followed by a new line.
  * Return 0 
  */
-int _putchar(int char )
+char _putchar(char c )
 {
-	_putchar(_putchar);
+	c = _putchar;
+	_putchar(c);
 	_putchar('\n');
 
-	return(0)
+	return
 }
