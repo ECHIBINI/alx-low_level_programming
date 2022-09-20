@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts.c - prints a string
+ * _puts - prints a string
  * @str: string to print
  *
  * Description: prints a string
@@ -11,7 +11,7 @@
 
 void _puts(char *str)
 {
-	int i =0;
+	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
